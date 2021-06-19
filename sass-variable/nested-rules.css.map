@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,CAAC;EACT,gBAAgB,EALV,KAAK;CAQW;;AAL1B,AAGI,IAHA,CAGA,EAAE,CAAC;EACC,gBAAgB,EAAE,GAAG;EACrB,SAAS,EAAE,EAAE;CAAG",
+    "sources": [
+        "nested-rules.sass"
+    ],
+    "names": [],
+    "file": "nested-rules.css"
+}

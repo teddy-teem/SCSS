@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;ADAD,AAAA,IAAI,CAAA;EACA,gBAAgB,EEJV,KAAK;CFKd",
+    "sources": [
+        "hehe.scss",
+        "_reset.scss",
+        "variables.scss"
+    ],
+    "names": [],
+    "file": "hehe.css"
+}

@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: green;
+}
+
+body header {
+  background-color: #2564da;
+  padding: 10px;
+  text-align: center;
+}
+
+body header h1 {
+  font-size: 52px;
+}
+
+body header #nav-b span {
+  background-color: #2564da;
+  padding: 10px;
+  margin-left: 20px;
+  font-size: 26px;
+  color: green;
+}
+
+body header #nav-b span:hover {
+  background-color: green;
+  padding: 10px;
+  margin-left: 20px;
+  font-size: 26px;
+  color: #2564da;
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+  letter-spacing: 10px;
+  font-weight: 800px;
+}
+
+body main .btn, body main .btn-download {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #2564da;
+}
+
+body main .btn-download {
+  background-color: rebeccapurple;
+}
+
+body main p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,62 @@
+@import "reset";
+@import "./sass-variable/variables.scss";
+@mixin nav-bar($color, $bgcolor) {
+    background-color: $bgcolor;
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 26px;
+    color: $color;
+}
+@mixin setFontSize($value) {
+    @if $value == small{
+        font-size: 12px;
+    }
+    @else if $value == medim{
+        font-size: 20px;
+    }
+    @else {
+        font-size: 32px;
+    }
+}
+
+body{
+    background-color: $bgcolor;
+    header{
+        background-color: $font-color;
+        padding: 10px;
+        text-align: center;
+        h1{
+            font-size: 52px;
+        }
+        #nav-b span{
+            @include nav-bar($bgcolor, $font-color);
+            
+        }
+        #nav-b span:hover{
+            @include nav-bar($font-color, $bgcolor );  ///Mixin
+            transition: 1s;
+            cursor: pointer;
+            letter-spacing: 10px;
+            font-weight: 800px;
+        }
+    }
+    main{
+        .btn{
+            border: none;
+            padding: 15px 30px;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: $font-color;
+        }
+        .btn-download{
+            @extend .btn;   //Inheritance
+            background-color: rebeccapurple;
+        }
+        p{
+            font-family: 'Courier New', Courier, monospace;
+            @include setFontSize(medim);
+        }
+    }
+}
+

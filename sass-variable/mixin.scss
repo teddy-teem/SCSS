@@ -1,0 +1,23 @@
+@mixin nav-bar {
+    #nav-item{
+        color: $font-color;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 800;
+        margin-left: 100px;
+        background-color: $bgcolor;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    #nav-item:hover{
+            background-color: $font-color;
+            color: $bgcolor;
+            padding: 20px;
+            font-size: 30px;
+            border: 1px solid grey;
+            transition: 1s;
+            h1{
+                font-size: 52px;
+            }
+    }
+}
